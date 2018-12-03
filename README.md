@@ -1,1 +1,63 @@
-# wed2-10
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>初めてのBootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--ナビゲーションバーの設定-->
+      <a class="navbar-brand" href="#">プロジェクト名</a><!--ヘッダ情報-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--リストの配置-->
+        <ul class="navbar-nav mr-auto"><!--リストの配置-->
+          <li class="nav-item active"><a class="nav-link" href="#">1つめ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#2nd">2つめ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#3rd">3つめ</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <section>
+      <h1>1つめ</h1>
+      <p>1つめの文章を書きます</p>
+      <h1 id="2nd">2つめ</h1>
+      <p>2つめの文章を書きます</p>
+      <h1 id=""3rd">3つめ</h1>
+      <p>3つめの文章を書きます</p>
+      </section>
+    </div>
+    
+    <nav>
+      <ul class="pagination">
+      <li>
+        <a href="#" aria-label="前のページへ"
+          <span aria-hidden="true"></span>
+        </a>
+      </li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3>/a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li>
+        <a href="#" aria-label="次のページへ">
+          <span aria-hidden="true"></span>
+        </a>
+      </li>
+      </ul>
+    </nav>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    
